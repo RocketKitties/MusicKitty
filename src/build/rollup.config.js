@@ -9,7 +9,7 @@ export default {
 
 	output: {
 		format: 'es',
-		dir: '../../sharedigm-built/scripts',
+		dir: '../../musickitty-built/scripts',
 		inlineDynamicImports: false,
 		chunkFileNames: '[name].js'
 	},
