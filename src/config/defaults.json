@@ -57,7 +57,7 @@
 			"2025-02-07": "downloads/MusicKitty_2025-02-07.zip"
 		},
 		"development": {
-			"GitHub": "https://github.com/RocketKitty/MusicKitty"
+			"GitHub": "https://github.com/RocketKitties/MusicKitty"
 		}
 	},
 
@@ -76,7 +76,7 @@
 	"settings": {
 		"enable_notifications": true,
 		"mute_sounds": false,
-		"volume": 5
+		"volume": 1
 	},
 
 	"sharing": {
@@ -85,30 +85,10 @@
 			"Files": {
 				"icon": "fa fa-file",
 				"directory": ""
-			},
-			"Audio": {
-				"icon": "fa fa-volume-up",
-				"directory": "Audio/"
-			},
-			"Music": {
-				"icon": "fa fa-music",
-				"directory": "Music/"
-			},
-			"Pictures": {
-				"icon": "fa fa-image",
-				"directory": "Pictures/"
-			},
-			"Videos": {
-				"icon": "fa fa-video",
-				"directory": "Videos/"
-			},
-			"Maps": {
-				"icon": "fa fa-map",
-				"directory": "Maps/"
 			}
 		},
 		"uploads": true,
-		"locations": true
+		"locations": false
 	},
 
 	"text": {
