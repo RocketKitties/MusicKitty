@@ -64,6 +64,8 @@
 	"search": {
 		"placeholder": "Search for terms or text.",
 		"options": ["view_kind", "detail_kind", "create_date"],
+		"search_directory": "/Shared"
+		"options": ["view_kind", "detail_kind", "create_date"],
 		"hidden": true,
 
 		"index": {
