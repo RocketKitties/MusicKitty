@@ -18,18 +18,12 @@
 				"font": "Varela Round",
 
 				"names": {
-					"M": {
-						"font_size": "125%",
+					"Music": {
+						"first_letter": "125%",
 						"color": "var(--primary-color)"
 					},
-					"usic": {
-						"color": "var(--primary-color)"
-					},
-					"K": {
-						"font_size": "125%",
-						"color": "#a0a0c0"
-					},
-					"itty": {
+					"Kitty": {
+						"first_letter": "125%",
 						"color": "#a0a0c0"
 					}
 				}
@@ -40,6 +34,11 @@
 			"About": {
 				"icon": "fa fa-info-circle",
 				"href": "#about"
+			},
+			"Users": {
+				"icon": "fa fa-users",
+				"href": "#users",
+				"platform": "desktop-only"
 			},
 			"Features": {
 				"icon": "fa fa-lightbulb",
@@ -80,39 +79,65 @@
 	"welcome": {
 		"background2": "linear-gradient(to bottom, hsla(250, 25%, 50%, 0%) 0%, hsla(250, 25%, 50%, 50%) 100%)",
 		"background_image": "images/backgrounds/wave.gif",
-		"template": "templates/welcome.tpl",
+		"template": "welcome.tpl",
 
 		"carousel": {
-			"template": "templates/welcome/carousel.tpl",
+			"template": "welcome/carousel.tpl",
 			"color": "white"
 		},
 
+		"ribbons": [{
+			"text": "Open Source",
+			"font_weight": "bold",
+			"height": 40,
+			"line_height": 40,
+			"corner": "bottom right",
+			"offset": 60,
+			"url": "#downloads"
+		}, {
+			"text": "Free",
+			"font_weight": "bold",
+			"height": 40,
+			"line_height": 40,
+			"corner": "bottom right",
+			"offset": 20,
+			"color": "black",
+			"background": "white",
+			"shadow": "none",
+			"url": "#installation"
+		}, {
+			"text": "&nbsp;",
+			"font_weight": "bold",
+			"height": 40,
+			"line_height": 40,
+			"corner": "bottom right",
+			"offset": -20,
+			"shadow": "none"
+		}],
+		
 		"splash": {
 			"background": "transparent",
+
 			"brand": {
 				"logo": {
 					"src": "images/logos/cloud-icon.svg",
 					"border": "rounded",
-					"transform": "scale(1.5)",
+					"size": "large",
 					"filter": "drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25))"
 				},
 
 				"logotype": {
 					"font": "Varela Round",
+					"text_shadow": "5px 5px 15px rgba(0, 0, 0, 0.5)",
+					"platform": "mobile",
 
 					"names": {
-						"M": {
-							"font_size": "150%",
+						"Music": {
+							"first_letter": "150%",
 							"color": "var(--primary-color)"
 						},
-						"usic": {
-							"color": "var(--primary-color)"
-						},
-						"K": {
-							"font_size": "150%",
-							"color": "#a0a0c0"
-						},
-						"itty": {
+						"Kitty": {
+							"first_letter": "150%",
 							"color": "#a0a0c0"
 						},
 						".org": {
@@ -173,18 +198,12 @@
 					"font": "Varela Round",
 
 					"names": {
-						"M": {
-							"font_size": "125%",
+						"Music": {
+							"first_letter": "125%",
 							"color": "var(--primary-color)"
 						},
-						"usic": {
-							"color": "var(--primary-color)"
-						},
-						"K": {
-							"font_size": "125%",
-							"color": "#a0a0c0"
-						},
-						"itty": {
+						"Kitty": {
+							"first_letter": "125%",
 							"color": "#a0a0c0"
 						},
 						".org": {
@@ -203,6 +222,10 @@
 							"icon": "fa fa-info-circle",
 							"href": "#about"
 						},
+						"Users": {
+							"icon": "fa fa-users",
+							"href": "#users"
+						},
 						"Features": {
 							"icon": "fa fa-lightbulb",
 							"href": "#features"
@@ -210,10 +233,6 @@
 						"Apps": {
 							"icon": "fa fa-rocket",
 							"href": "#apps"
-						},
-						"Downloads": {
-							"icon": "fa fa-download",
-							"href": "#downloads"
 						}
 					}
 				},
@@ -269,7 +288,7 @@
 		"background": "var(--primary-color)",
 		"color": "white",
 		"copyright": {
-			"year": "2024",
+			"year": "2025",
 			"logo": "images/logos/rocketkitty-icon-white.svg",
 			"url": "http://www.rocketkitty.org",
 			"entity": "RocketKitty.org"
